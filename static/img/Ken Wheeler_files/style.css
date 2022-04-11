@@ -1,0 +1,156 @@
+body {
+  font-family : 'Lato', san-serif;
+}
+
+.uk-navbar { padding: 15px 0; }
+
+.uk-badge { background: #38a4ab; }
+
+.uk-button-primary { background: #38a4ab; }
+.uk-button-primary:hover { background: #057178; }
+
+
+.uk-navbar .uk-title { font-weight: bold; font-size: 28px; color: #242d3c; text-transform: uppercase; }
+
+.blue { color: #38a4ab; }
+
+.hero-unit { background: #38a4ab url(../img/hero-image.png) no-repeat 100% -600%; background-size: 45%; width: 100%; padding: 50px 0px; min-height: 200px;}
+
+.hero-unit h1, .hero-unit h2, .hero-unit h3 { color: #eee; text-transform: uppercase; font-weight: bold; }
+
+.hero-unit h1 { max-width: 500px; }
+
+.uk-heading-large { font-size: 72px; line-height: 64px; }
+
+.uk-text-large { font-size: 20px; line-height: 26px; color: #eee;}
+
+.footer { background: #242d3c; color: #eee; padding: 30px 0 20px 0; }
+
+.footer .uk-subnav li a { color: #38a4ab; }
+
+.sub-banner { background: #38a4ab; color: #eee; padding: 20px; margin-top: 40px; overflow: hidden;}
+
+.sub-banner h1 { font-size: 60px; line-height: 55px; color: #eee; max-width: 500px; text-transform: uppercase;  margin: 60px 0px 40px; text-align: right; font-weight: bold; }
+
+.sub-banner .messaging { text-align: right; margin-bottom: 60px; position: relative; top: 0px; right: 0px;}
+
+.sub-banner .chilling { background-size: 100%; height: 378px; width: 400px; display: block; background: url('../img/chilling.png') no-repeat; position: relative; bottom: -20px; left: 0px; }
+
+div.projects { margin-top: 40px; }
+
+div.projects .uk-panel { margin-bottom: 20px !important; }
+
+div.projects .uk-panel .uk-panel-title { font-weight: bold; text-transform: uppercase; }
+
+iframe.follow { margin-top: 3px; margin-left: 15px; float: right;}
+
+@media only screen and (min-width: 1025px) {
+
+  .uk-panel { cursor: pointer; }
+
+  .uk-panel:hover { 
+    background : #dee; 
+  }
+
+  .sub-banner .messaging, .sub-banner .chilling { 
+    -webkit-transition : all .5s linear;
+    -moz-transition    : all .5s linear;
+    -o-transition      : all .5s linear;
+    transition         : all .5s linear;
+    -webkit-transform  : translateZ(0); 
+    -moz-transform     : translateZ(0);  
+    -ms-transform      : translateZ(0);
+    -o-transform       : translateZ(0);
+    transform          : translateZ(0);
+  }
+  .hero-unit { 
+    -moz-transition    : all 0.25s linear;
+    -webkit-transition : all 0.25s linear;
+    -o-transition      : all 0.25s linear;
+    transition         : all 0.25s linear;
+  }
+
+  .sub-banner .messaging { right: -999px; }
+
+  .sub-banner .chilling { left: -999px; }
+
+  .sub-banner.start-animation .messaging { right: 0px; }
+
+  .sub-banner.start-animation .chilling { left: 0px; }
+
+  .hero-unit.animReady { background-position: 100% 0%;}
+
+  .caption-toon {
+    -moz-transition    : all 0.1s linear;
+    -webkit-transition : all 0.1s linear;
+    -o-transition      : all 0.1s linear;
+    transition         : all 0.1s linear;
+    -webkit-transform  : translateZ(0); 
+    -moz-transform     : translateZ(0);  
+    -ms-transform      : translateZ(0);
+    -o-transform       : translateZ(0);
+    transform          : translateZ(0);
+    position           : fixed;
+    display            : block;
+    height             : 283px;
+    width              : 323px;
+    left               : 50px;
+    bottom             : -283px;
+    background         : url('../img/caption-toon.png') no-repeat;
+  }
+
+  .caption-toon .caption {
+    position    : absolute;
+    left        : 171px;
+    top         : 25px;
+    width       : 135px;
+    text-align  : center;
+    font-family : 'Comic Sans MS', cursive;
+  }
+
+  .caption-toon.show {
+    bottom : 0px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 767px) {
+  .hero-unit h1 { font-size: 48px; line-height: 42px;}
+  .hero-unit {background-size: 50%; min-height: 280px;}
+  .hero-unit { 
+    -moz-transition    : all 0.25s linear;
+    -webkit-transition : all 0.25s linear;
+    -o-transition      : all 0.25s linear;
+    transition         : all 0.25s linear;
+  }
+
+  .hero-unit.animReady { background-position: 100% 0%;}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 767px) {
+  .uk-navbar .uk-title { margin: auto; float: none; width: 200px; display: block;}
+  .hero-unit h1 { font-size: 48px; line-height: 48px; max-width: 400px;}
+  .hero-unit {background-size: 40%; background-position: top right; min-height: 155px; padding: 20px 0;}
+  iframe.follow { display: none; }
+  .sub-banner { position: relative; }
+  .sub-banner .chilling { width: 300px; height: 300px; background-position: left bottom; background-size: 100%; position: absolute; bottom: 0px;}
+  .sub-banner .messaging h1 { font-size: 42px; line-height: 36px; }
+}
+
+@media only screen and (max-width: 767px) {
+  .caption-toon { display: none; }
+  .hero-unit h1 { font-size: 32px; line-height: 32px; max-width: none; }
+  iframe.follow { display: none; }
+  .uk-navbar .uk-title { margin: auto; float: none; width: 195px; display: block;}
+  div.projects .uk-panel .uk-panel-title { max-width: 180px; word-wrap: normal; }
+  .hero-unit {background-size: 90%; text-align: center; background-position: bottom center; min-height: 330px; padding: 20px 0;}
+  .sub-banner .messaging { top: auto; right: auto; margin: auto; display: block; clear: left; float: none;}
+  .sub-banner .messaging h1 { font-size: 32px; line-height: 32px; text-align: center; margin: 40px auto;}
+  .sub-banner .messaging p { text-align: center; }
+  .sub-banner .chilling { width: 260px; height: 240px; background-size: 100%; float: none; clear: right;}
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .hero-unit { min-height: 440px; }
+}
