@@ -286,19 +286,21 @@ section.blog .card{
     width: 350px;
     padding: 20px;
     backdrop-filter: blur(20px);
-    border: 7px solid var(--pure);
+    border: 5px solid var(--pure);
     border-radius: 20px;
     display: flex;
     align-content: center;
     justify-content: center;
     flex-direction: column;
 
-    background: rgba( 9, 9, 9, 0.65 );
+
+    background: rgba( 3, 23, 23, 0.7 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 2px );
-    -webkit-backdrop-filter: blur( 2px );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    
     }
 section.blog .card .proImg{
     width: 200px;
@@ -656,6 +658,7 @@ footer .footer-social a img:hover{
     }
     section.blog .card-wrapper{
         grid-template-columns: repeat(1,1fr);
+        margin: 1rem;
     }
     section.contact .about-icons .about-icon img{
         margin-bottom: 0%;
