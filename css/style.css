@@ -114,8 +114,7 @@ section.about p{
 }
 
 .handcam-img{
-    
-    margin-left: 10rem;
+    text-align: center;
 }
 
 section.about .social{
@@ -126,12 +125,9 @@ section.about .social a{
     margin: 1.3rem;
     align-items: center;
     justify-content: center;
-    transition:all .3s ease-in;
+    transition:all .15s ease-in;
 }
 
-section.about .aboutme{
-    margin-left: -5rem;
-}
 
 section.about .social a:hover{
     transform: scale(1.5);    
@@ -522,18 +518,15 @@ footer .footer-social a img:hover{
         padding-bottom: 5rem;
     }
     .handcam-img{
-        margin-left: auto;
+        margin-right: 1rem;
         
     }
+
 
     handcam-img img{
         width: 250px;
     }
-    section.about .aboutme {
-        padding-left: 0rem;
-        margin-left: 1rem;
-        padding: auto;
-    }
+   
     section.skills .cards-box{
         grid-template-columns: repeat(2,1fr);
     }
@@ -574,6 +567,7 @@ footer .footer-social a img:hover{
         grid-gap: 0;
         margin: 0;
     }
+    
 }
 
 @media (min-width:992px){
@@ -585,6 +579,14 @@ footer .footer-social a img:hover{
 @media (min-width:1200px){
     .container{
         max-width: 1152px;
+    }
+}
+@media (max-width:770px){
+    .handcam-img img{
+        display: none;
+    }
+    .aboutme{
+        text-align: center;
     }
 }
 
@@ -601,17 +603,18 @@ footer .footer-social a img:hover{
     .abouts{
         flex-direction: column;
     }
-    section.about .aboutme{
-        margin: 1rem auto;
-        text-align: center;
-        width: 360px;
-    }
+    
     section.about .social{
         justify-content: center;
         margin: auto;
     }
     .handcam-img img{
         display: none;
+    }
+    section.about .aboutme{
+        margin: 1rem auto;
+        text-align: center;
+        width: 360px;
     }
     section.skills .cards-box {
         grid-template-columns: repeat(1,1fr);
