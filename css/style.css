@@ -633,6 +633,7 @@ footer .footer-social a img:hover{
     footer{
         align-items: center;
         justify-content: center;
+        padding: 3rem;
     }
     footer .footer-social{
         padding: 0 3rem;
