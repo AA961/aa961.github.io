@@ -279,6 +279,7 @@ section.blog .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 2rem;
+    justify-content: center;
 }
 section.blog .card{
     backdrop-filter: blur(20px);
