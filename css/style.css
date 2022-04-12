@@ -436,9 +436,9 @@ footer .footer-social a img:hover{
 .mobile-nav .top {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 3rem;
+    margin-top: 2rem;
     border-bottom: var(--ternary) 3px solid;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 
 }
 
