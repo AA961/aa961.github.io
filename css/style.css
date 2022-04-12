@@ -399,8 +399,7 @@ footer h1{
 
 footer .footer-social{
     display: flex;
-    justify-content: space-between;
-    padding: 0 31rem;
+    justify-content: center;
     margin-bottom: 2.5rem;
 }
 
@@ -521,6 +520,7 @@ footer .footer-social a img:hover{
         margin-left: auto;
         
     }
+
     handcam-img img{
         width: 250px;
     }
@@ -550,6 +550,9 @@ footer .footer-social a img:hover{
     footer{
         padding: 3rem;
     }
+    footer .footer-social{
+        justify-content: center;
+    }
 
 @media (min-width: 576px){
     .container{
@@ -559,7 +562,12 @@ footer .footer-social a img:hover{
 
 @media (min-width:768px){
     .container{
-        max-width: 720px;
+        max-width: 768px;
+    }
+    section.contact .inputs{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 0;
+        margin: 0;
     }
 }
 
@@ -623,7 +631,8 @@ footer .footer-social a img:hover{
         margin:0;
     }
     footer{
-        padding: 0%;
+        align-items: center;
+        justify-content: center;
     }
     footer .footer-social{
         padding: 0 3rem;
