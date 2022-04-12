@@ -313,6 +313,7 @@ section.blog .card .name{
     color: var(--primary);
     font-size: 2rem;
     text-align: center;
+    font-family: 'Poppins',sans-serif;
 
 }
 
@@ -322,6 +323,7 @@ section.blog .card .details {
     color:var(--primary);
     margin: 1rem;
     border-radius: 10px;
+    font-family: 'M PLUS Code Latin',sans-serif;
 }
 section.blog .card .details .detail{
     display: flex;
