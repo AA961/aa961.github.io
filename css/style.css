@@ -488,6 +488,7 @@ footer .footer-social a img:hover{
     outline: none;
     border: none;
     background: transparent;
+    margin-top: 2rem;
 }
 .hamburger{
     border: none;
