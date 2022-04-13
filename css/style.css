@@ -191,6 +191,13 @@ section.skills .card:hover h2,section.skills .card:hover p{
 }
 /* ------------slider----------------- */
 
+section.slider-section{
+    background: var(--dark);
+}
+section.slider-section .heading{
+    color: var(--pure);
+}
+
 .slide{
     
    text-align: center;
