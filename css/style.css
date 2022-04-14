@@ -231,7 +231,7 @@ section.slider-section .heading{
 
 /* -------projects section---------- */
 section.projects{
-    background: var(--light);
+    background: var(--pure);
 }
 .project-images .project-img img{
     width: 100%;
@@ -243,36 +243,15 @@ section.projects{
     height: 250px;
     width: 300px;
 }
-.project-images .project-img .overlay{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background: rgba(61, 207 ,211 ,0.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: var(--ternary);
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-}
-.project-images .project-img .overlay a{
-    color: var(--dark);
-    text-decoration: none;
-}
+
 .project-images{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 2rem;
     justify-items: center;
-}
-
-.project-images .project-img:hover .overlay{
-    opacity: 1;
     cursor: pointer;
 }
+
 
 /* --------starting blog----------- */
 

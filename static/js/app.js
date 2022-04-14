@@ -3,7 +3,9 @@ $('.slider').slick({
     arrows:false,
     dots:true,
     appendDots:'.slider-dots',
-    dotsClass:'dots'
+    dotsClass:'dots',
+    fade: true,
+    cssEase: 'linear',
 });
 let hamberger = document.querySelector('.hamburger');
 let mobileNav = document.querySelector('.mobile-nav')

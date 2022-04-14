@@ -25,11 +25,11 @@
             <div class="down">
                 <div class="nav-list">
                     <i class='bx bx-home bx-rotate-90 bx-tada' style='color:#dadde4'></i>
-                    <a href="">Home</a>
+                    <a href="#main-nav">Home</a>
                 </div>
                 <div class="nav-list">
                     <i class='bx bxs-user bx-tada'></i>
-                    <a href="">About</a>
+                    <a href="#aboutme">About</a>
                 </div>
                 <div class="nav-list">
                     <i class='bx bx-laptop bx-tada bx-flip-horizontal'></i>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="nav-list">
                     <i class='bx bx-envelope bx-tada'></i>
-                    <a href="">Contact</a>
+                    <a href="#contact-form">Contact</a>
                 </div>
             </div>
             <button class="cross">
@@ -57,14 +57,16 @@
                         </div>
                     </div>
                     <div class="li">
-                        <a href="">Home</a>
-                        <a href="">About</a>
-                        <a href="">Services</a>
-                        <a href="">Pages</a>
-                        <a href="">Blog</a>
+                        <a href="#main-nav">Home</a>
+                        <a href="#aboutme">About</a>
+                        <a href="#skills1">Skills</a>
+                        <a href="#poetry">Poetry</a>
+                        <a href="#Highlights">Highlights</a>
                     </div>
                     <div class="nav-button">
-                        <button class="btn btn-primary">Conatact</button>
+                        <a href="#contact-form">
+                            <button class="btn btn-primary">Conatact</button>
+                        </a>
                     </div>
                 </nav>
                 <div class="hero flex center between">
@@ -76,25 +78,26 @@
                         <h1>I am <span>E-Sport Player</span></h1>
                         <p>I am a Pogrammer, Full stack Web Developer, Poet , Gamer and E-sport Player</p>
                         <div>
-                         <a href="#Lineup">  
-                            <button class="btn btn-secondry">LINE UP</button>
-                         </a>
-                      </div>
+                            <a href="#Lineup">
+                                <button class="btn btn-secondry">LINE UP</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
         <!-- -----------------------------Starting About----------------------------------- -->
-        <section class="about">
+        <section class="about" id="aboutme">
             <div class="container flex center abouts">
                 <div class="flex1 handcam-img">
                     <img src="static/img/gamer.jpg" width="300px" height="500px" alt="handcam">
                 </div>
-                <div class="flex1 aboutme" id="aboutme">
+                <div class="flex1 aboutme">
                     <h1>About <span>Me</span></h1>
                     <h3>Hi I am <br> <span>Ammar Ahmed Qureshi</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odit officia, accusantium et
-                        adipisci doloremque laborum corrupti!</p>
+                    <p>I passed my Matriculation examination from Pakistan Secondry School Gujar Khan
+                        and Intermediate from Gentery Collage. Now I'm student of BSCS in Aspire Collage Gujar Khan.
+                    </p>
                     <div class="social">
                         <a href="https://facebook.com/Dar.Ahmed0" target="_blank">
                             <img src="static/social/fb.svg" alt="Facebook"></a>
@@ -113,107 +116,87 @@
 
         <!-- /* ----------------starting skills------------------- */ -->
 
-        <section class="skills">
+        <section class="skills" id="skills1">
             <div class="container">
                 <h1 class="heading">My <span>Skills</span></h1>
                 <!-- ------------------Adding Card----------------- -->
                 <div class="cards-box">
                     <div class="card">
                         <img src="static/skillsicons/html.png" alt="Web">
-                        <h2>Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, voluptas nostrum. Vero
-                            dignissimos sunt consequatur.</p>
+                        <h2>Front End</h2>
+                        <p>I'm UX/UI Front End Developer with Html CSS and Javascript.
+                            I design and build user Interface. Fully costume and responsive website
+                            designs.
+                        </p>
                     </div>
 
                     <div class="card">
                         <img src="static/skillsicons/python.png" alt="Web">
-                        <h2>Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, voluptas nostrum. Vero
-                            dignissimos sunt consequatur.</p>
+                        <h2>Python</h2>
+                        <p>Python is first programming language which I learn. I can make tools and softwares in Python. I can also build GUI apps and softwares using tkinter and kivy.</p>
                     </div>
 
                     <div class="card">
                         <img src="static/skillsicons/django.png" alt="Web">
-                        <h2>Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, voluptas nostrum. Vero
-                            dignissimos sunt consequatur.</p>
+                        <h2>Django</h2>
+                        <p>I learned many Python libraries. Django is my favourite. I can build webapps backend using django. I also have experience making dynamic websites in Django</p>
                     </div>
 
                     <div class="card">
                         <img src="static/skillsicons/poet.png" alt="Web">
-                        <h2>Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, voluptas nostrum. Vero
-                            dignissimos sunt consequatur.</p>
+                        <h2>Poetry</h2>
+                        <p>Other than that, I love to read books and poetry.I have intrest in Philosphy.
+                            I'm Urdu Poet. I wrote many Ghazal and Nazam.</p>
                     </div>
 
                     <div class="card">
                         <img src="static/skillsicons/hiphop.png" alt="Web">
-                        <h2>Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, voluptas nostrum. Vero
-                            dignissimos sunt consequatur.</p>
+                        <h2>Free Fire</h2>
+                        <p>Free Fire is my favourite mobile E-Sport game. I playing Free Fire since 3 years. I am Free Fire E-Sport Player.</p>
                     </div>
 
                     <div class="card">
                         <img src="static/skillsicons/gamer1.png" alt="Web">
-                        <h2>Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, voluptas nostrum. Vero
-                            dignissimos sunt consequatur.</p>
+                        <h2>Cyber Security</h2>
+                        <p>I have intrest in Pentesting. I solved machines on hackthebox and hackthis site. I have intrest in Web explotation , Binary explotaion and Reverse Engeenring. </p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- -----------------starting work---------------- -->
-        <section class="projects">
+        <section class="projects" id="poetry">
             <div class="container">
-                <h1 class="heading"><span>My</span> Projects</h1>
+                <h1 class="heading"><span>Poetry</span></h1>
                 <div class="project-images ">
                     <div class="project-img">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="static/player-logo/aromaa.png" alt="project-images">
+
+                        <img src="static/poetry/1.png" alt="project-images">
                     </div>
 
                     <div class="project-img">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="static/player-logo/aromaa.png" alt="project-images">
+
+                        <img src="static/poetry/6.jpg" alt="project-images">
                     </div>
 
                     <div class="project-img">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="static/player-logo/aromaa.png" alt="project-images">
+
+                        <img src="static/poetry/2.png" alt="project-images">
                     </div>
 
                     <div class="project-img">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="static/player-logo/aromaa.png" alt="project-images">
+
+                        <img src="static/poetry/3.png" alt="project-images">
                     </div>
 
                     <div class="project-img">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="static/player-logo/aromaa.png" alt="project-images">
+
+                        <img src="static/poetry/4.jpg" alt="project-images">
                     </div>
 
                     <div class="project-img">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="static/player-logo/aromaa.png" alt="project-images">
+
+                        <img src="static/poetry/5.jpg" alt="project-images">
                     </div>
 
 
@@ -233,10 +216,11 @@
                             <h3 class="detail">ROLE: <span>IGL</span> </h3>
                             <h3 class="detail">UID: <span>2083104011</span></h3>
                         </div>
-                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y="
+                            target="_blank">
                             <button class="btn btn-secondry contact-btn2">Contact </button>
                         </a>
-                        </div>
+                    </div>
 
 
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
@@ -247,7 +231,7 @@
                             <h3 class="detail">ROLE: <span>Supporter</span> </h3>
                             <h3 class="detail">UID: <span>1086532491</span></h3>
                         </div>
-                        <a class="contact-a" href="#aboutme">
+                        <a class="contact-a" href="#links">
                             <button class="btn btn-secondry contact-btn2">Contact </button>
                         </a>
                     </div>
@@ -260,7 +244,8 @@
                             <h3 class="detail">ROLE: <span>Rusher</span> </h3>
                             <h3 class="detail">UID: <span>870406234</span></h3>
                         </div>
-                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y="
+                            target="_blank">
                             <button class="btn btn-secondry contact-btn2">Contact </button>
                         </a>
                     </div>
@@ -273,7 +258,8 @@
                             <h3 class="detail">ROLE: <span>Supporter</span> </h3>
                             <h3 class="detail">UID: <span>1653445936</span></h3>
                         </div>
-                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y="
+                            target="_blank">
                             <button class="btn btn-secondry contact-btn2">Contact </button>
                         </a>
                     </div>
@@ -286,7 +272,8 @@
                             <h3 class="detail">ROLE: <span>Rusher</span> </h3>
                             <h3 class="detail">UID: <span>493084684</span></h3>
                         </div>
-                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y="
+                            target="_blank">
                             <button class="btn btn-secondry contact-btn2">Contact </button>
                         </a>
                     </div>
@@ -309,50 +296,36 @@
     </div>
 
     </section>
-        <!-- --------------------slider------------------------------ -->
-        <section class="slider-section" id="Highlights">
-            <div class="container">
-                <h1 class="heading">Tournament <span>Highlights</span></h1>
+    <!-- --------------------slider------------------------------ -->
+    <section class="slider-section" id="Highlights">
+        <div class="container">
+            <h1 class="heading">Tournament <span>Highlights</span></h1>
 
-                <div class="slider">
-                    <div class="slide">
-                        <div class="if">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZlUVM2pgkGg"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="if">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/o8_OvmBbSIY"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="if">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CdoXC5tnTyM"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="if">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CdoXC5tnTyM"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
+            <div class="slider">
+                <div class="slide">
+                    <div class="if">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/80BqXuCzbJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="slider-dots"></div>
+                <div class="slide">
+                    <div class="if">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/o8_OvmBbSIY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="if">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nb8bCv5sKP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
-        </section>
+            <div class="slider-dots"></div>
+        </div>
+    </section>
     <!-- -----------------------------Starting Contant--------------------- -->
-    <section class="contact">
+    <section class="contact" id="contact-form">
         <div class="container">
             <h1 class="heading"><span>Contact</span> Us</h1>
             <div class="about-icons">
@@ -389,7 +362,7 @@
             </form>
         </div>
     </section>
-    <footer>
+    <footer id="links">
         <h1>عماراحمدقریشی</h1>
         <div class="footer-social">
             <a href="https://facebook.com/Dar.Ahmed0" target="_blank">
