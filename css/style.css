@@ -674,3 +674,9 @@ footer .footer-social a img:hover{
 }
 }
 
+.slick-frame {
+    visibility: hidden;
+}
+.slick-frame.slick-initialized{
+    visibility: visible;
+}
