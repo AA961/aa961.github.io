@@ -1,0 +1,45 @@
+
+
+:root{
+    --primary:#C3073F;
+    --dark:#1A1A1D;
+    --pure:#FFFFFF;
+    --ternary:#4E4E50;
+    --light:#F2F2F2;
+    --secondry:#070606;
+
+}
+
+
+section.result{
+    background-color: var(--secondry);
+}
+
+section.result .tournament-img{
+    border: var(--ternary) 5px solid;
+    border-radius:12px;
+    margin-top: 2rem;
+}
+section.result .tournament-img img{
+    width: 100%;
+}
+section.result .tournament-img h3{
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--primary);
+    padding: 1rem;
+    background-color: var(--light);
+    font-family: 'M PLUS Code Latin',sans-serif;
+    font-weight: 500;
+}
+
+.headings{
+    color:var(--pure);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+.headings span {
+color: var(--primary);
+}
