@@ -9,8 +9,32 @@
     --secondry:#070606;
 
 }
+section.header1{
+    background-color: var(--secondry);
+    padding: 1rem;
+}
 
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
 
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    font-family: 'Poppins',serif;
+    text-decoration: none;
+    font-size:1rem;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+nav ul li a:hover{
+    color: var(--pure);
+}
 section.result{
     background-color: var(--secondry);
 }
@@ -20,6 +44,8 @@ section.result .tournament-img{
     border-radius:12px;
     margin-top: 2rem;
 }
+
+
 section.result .tournament-img img{
     width: 100%;
 }
