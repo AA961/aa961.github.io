@@ -1,9 +1,19 @@
-:root{
+.oot{
     --primary:#3DCFD3;
     --dark:#161616;
     --pure:#FFFFFF;
     --ternary:#898989;
     --light:#F2F2F2;
+
+}
+
+:root{
+    --primary:#C3073F;
+    --dark:#1A1A1D;
+    --pure:#FFFFFF;
+    --ternary:#4E4E50;
+    --light:#F2F2F2;
+    --secondry:#070606;
 
 }
 .grid{
