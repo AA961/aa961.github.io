@@ -630,7 +630,7 @@ footer .footer-social a img:hover{
         margin: auto;
     }
     .handcam-img img{
-        display: none;
+        width:100%;
     }
     section.about .aboutme{
         margin: 1rem auto;
