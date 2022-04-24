@@ -75,3 +75,11 @@ section.result .tournament-img h3{
 .headings span {
 color: var(--primary);
 }
+
+.footer-h1{
+    font-family: 'Poppins',serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
