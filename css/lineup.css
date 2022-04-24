@@ -13,7 +13,7 @@ section.header1{
     background-color: var(--secondry);
     padding: 1rem;
     position:fixed;
-    widht:100vh;
+    width:100vh;
     z-index:1001;
 }
 
@@ -58,8 +58,8 @@ section.result .tournament-img h3{
     font-size: 1.6rem;
     text-align: center;
     color: var(--primary);
-    padding: 1rem;
-    font-family: 'M PLUS Code Latin',sans-serif;
+    padding: 0.8rem;
+    font-family: 'Poppins',serif;
     font-weight: 500;
     border-bottom:var(--ternary) 3px solid;
 }
