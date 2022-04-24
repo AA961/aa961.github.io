@@ -12,8 +12,9 @@
 section.header1{
     background-color: var(--secondry);
     padding: 1rem;
-    position:fixed;
-    width:100vh;
+    position:sticky;
+    top:0%;
+    width:100%;
     z-index:1001;
 }
 
