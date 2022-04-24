@@ -13,6 +13,8 @@ section.header1{
     background-color: var(--secondry);
     padding: 1rem;
     position:fixed;
+    widht:100vh;
+    z-index:1001;
 }
 
 nav ul{
