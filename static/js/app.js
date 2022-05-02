@@ -8,8 +8,10 @@ $('.slider').slick({
     cssEase: 'linear',
 });
 let hamberger = document.querySelector('.hamburger');
-let mobileNav = document.querySelector('.mobile-nav')
+let mobileNav = document.querySelector('.mobile-nav');
 let close = document.querySelector('.cross');
+let navlist = document.querySelector('.down');
+
 
 
 hamberger.addEventListener('click',function(){
@@ -20,6 +22,10 @@ close.addEventListener('click',function(){
     mobileNav.classList.remove('open')
 
 });
+navlist.addEventListener('click',function(){
+    mobileNav.classList.remove('open')
+});
+
 
 });
 
