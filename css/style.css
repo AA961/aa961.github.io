@@ -332,6 +332,9 @@ section.blog .card .details .detail{
     color: var(--primary);
     
 }
+section.blog .card .details .detail:last-child{
+    border-bottom: none;
+}
 section.blog .card .details .detail span{
     margin-left: 2rem;
     color: var(--light);
