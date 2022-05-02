@@ -9,6 +9,15 @@
     --secondry:#070606;
 
 }
+.root{
+    --primary:#805db9;
+    --dark:#f9f871;
+    --pure:#ffc760;
+    --ternary:#ff9672;
+    --light:#ff7090;
+    --secondry:#d05fac;
+
+}
 section.header1{
     background-color: var(--secondry);
     padding: 1rem;
@@ -75,10 +84,57 @@ section.result .tournament-img h3{
 .headings span {
 color: var(--primary);
 }
+section.blog .card{
+    backdrop-filter: blur(20px);
+    width: 350px;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    border: 5px solid var(--pure);
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 
+
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    }
 .footer-h1{
     font-family: 'Poppins',serif;
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 2rem;
+    font-style: normal;
+}
+section.hero1{
+    background: var(--dark);
+    display: flex;
+
+}
+section.hero1 .main-img img{
+ width: 100%;
+}
+section.hero1 .main-heading{
+    font-size: 2.5rem;
+    font-family: 'Poppins',sans-serif;
+    color: var(--pure);
+    text-align: center;
+}
+section.hero1 .main-content p{
+    color: var(--primary);
+    font-size: 1.3rem;
+    padding: 1rem 0.5rem;
+    font-family: 'M PLUS Code Latin',sans-serif;
+}
+
+@media (max-width:576px){
+    section.hero1{
+        flex-direction: column;
+    }
 }
