@@ -246,7 +246,7 @@ section.projects{
     transition: all .2s ease-in-out;
 }
 .project-images:hover img{
-    filter: blur(20px);
+    filter: blur(5px);
     transform: scale(0.9);
     opacity: 0.5;
 }
@@ -309,7 +309,7 @@ section.blog .card{
     }
 section.blog .card .proImg{
     width: 200px;
-    height: 150;
+    height: 150px;
     margin: auto;
     border: 2px solid var(--light);
     border-radius: 100%;
