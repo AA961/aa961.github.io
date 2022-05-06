@@ -448,7 +448,7 @@ footer .footer-social a img:hover{
     position: fixed;
     top: 5%;
     right: 0%;
-    bottom: 8%;
+    bottom: auto;
     width: 350px;
     background: var(--dark);
     padding: 10px 14px;
