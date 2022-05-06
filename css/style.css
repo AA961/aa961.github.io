@@ -24,14 +24,14 @@
 
 }
 
-/* :root{
+.dark-theme{
     --primary:#94618E;
     --dark:#49274A;
     --pure:#FFFFFF;
     --ternary:#F4DECB;
     --light:#F8EEE7;
 
-} */
+} 
 
 *{
     padding: 0;
@@ -245,8 +245,15 @@ section.projects{
     border-radius:10px;
     transition: all .2s ease-in-out;
 }
+.project-images:hover img{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
 .project-images .project-img img:hover{
-    transform: scale(1.2);
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 .project-images .project-img{
@@ -302,6 +309,7 @@ section.blog .card{
     }
 section.blog .card .proImg{
     width: 200px;
+    height: 150;
     margin: auto;
     border: 2px solid var(--light);
     border-radius: 100%;
@@ -314,7 +322,6 @@ section.blog .card .name{
     font-family: 'Poppins',sans-serif;
 
 }
-
 
 section.blog .card .details {
     border: var(--light) 3px solid;
