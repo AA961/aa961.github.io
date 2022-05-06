@@ -448,7 +448,7 @@ footer .footer-social a img:hover{
     position: fixed;
     top: 5%;
     right: 0%;
-    bottom: 5%;
+    bottom: 8%;
     width: 350px;
     background: var(--dark);
     padding: 10px 14px;
@@ -466,10 +466,9 @@ footer .footer-social a img:hover{
 .mobile-nav .top {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     border-bottom: var(--ternary) 3px solid;
-    padding-bottom: 2rem;
-
+    padding-bottom: 1.6rem;
 }
 
 .mobile-nav .top  img{
@@ -489,13 +488,13 @@ footer .footer-social a img:hover{
     margin-left: 1rem;
 }
 .mobile-nav .down{
-    margin: 3rem 3rem ;
+    margin: 2rem 2.5rem;
 }
 .mobile-nav .down .nav-list a:hover{
     color: var(--primary);
 }
 .mobile-nav .down .nav-list{
-    margin-top: 3rem;
+    margin-top: 2.3rem;
     display: flex;
     justify-content: flex-start;
     text-align: center;
@@ -506,19 +505,17 @@ footer .footer-social a img:hover{
     font-size: 2rem;
     color: var(--pure) !important;
 }
-.mobile-nav .down .nav-list i:hover{
-    color: var(--primary) !important;
-}
+
 .mobile-nav .cross{
     color: var(--primary) !important;
     font-size: 3rem;
     cursor: pointer;
-    margin-left: 2rem;
+    margin-left: -1.3rem;
     transition: all 0.3s ease-in-out;
     outline: none;
     border: none;
     background: transparent;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .hamburger{
     border: none;
