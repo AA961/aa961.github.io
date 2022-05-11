@@ -470,9 +470,8 @@ section.contact .inputs-2{
 .submit-alert{
     color: var(--primary);
     background-color: var(--dark);
-    font-size: 1.4rem;
     position: fixed;
-    padding: 1rem ;
+    padding: 0.5rem ;
     border-radius: 12px;
     right: 5%;
     bottom: 10%;

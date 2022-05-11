@@ -13,7 +13,7 @@ $(document).ready(function () {
     let navlist = document.querySelector('.down');
     let submitButton = document.querySelector("#Submit-Button");
     let submitAlert = document.querySelector(".submit-alert");
-    let contactForm = document.getElementById("contacts-form")
+    let contactForm = document.getElementById("contacts-form");
 
 
     function SendMail() {
@@ -24,20 +24,30 @@ $(document).ready(function () {
             message: document.getElementById("message").value,
         }
 
-        emailjs.send("service_krz82gx", "template_ys3k37n", params).then(function (res) {
-            submitButton.innerHTML = "Submitted"
-            submitAlert.classList.remove("active")
-            submitAlert.innerHTML = params.from_name + " " + "Your Respose Has Been Recorded"
-            contactForm.style.display = "none"
+        if (params.from_name && params.email_id && params.message) {
+            emailjs.send("service_krz82gx", "template_ys3k37n", params).then(function (res) {
+                submitAlert.classList.remove("active")
+                submitAlert.innerHTML = params.from_name + " " + "Your Responce has been recorded , You will be responded soon"
+                contactForm.style.display = "none"
 
-            setTimeout(() => {
-                submitAlert.classList.add("active")
-            }, 4000);
-        })
+            })
+        } else {
+            submitAlert.classList.remove("active")
+            submitAlert.innerHTML = "Please fill all required fields"
+        }
+        setTimeout(() => {
+            submitAlert.classList.add("active")
+        }, 4000);
+
     }
 
+
+
+
     submitButton.addEventListener('click', () => {
-        SendMail()
+
+        SendMail();
+
     })
 
 
@@ -56,5 +66,4 @@ $(document).ready(function () {
     });
 
 
-});
-
+})
