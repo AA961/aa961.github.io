@@ -13,8 +13,8 @@ $(document).ready(function () {
     let navlist = document.querySelector('.down');
     let submitButton = document.querySelector("#Submit-Button");
     let submitAlert = document.querySelector(".submit-alert");
+    let submitSuccess = document.getElementById("ABC")
     let contactForm = document.getElementById("contacts-form");
-
 
     function SendMail() {
         let params = {
@@ -26,8 +26,9 @@ $(document).ready(function () {
 
         if (params.from_name && params.email_id && params.message) {
             emailjs.send("service_krz82gx", "template_ys3k37n", params).then(function (res) {
-                submitAlert.classList.remove("active")
-                submitAlert.innerHTML = params.from_name + " " + "Your Responce has been recorded , You will be responded soon"
+                submitSuccess.classList.remove("active")
+                params.from_name.style.color = "#C3073F"
+                submitSuccess.innerHTML = params.from_name + " " + "Your Responce has been recorded , You will be responded soon"
                 contactForm.style.display = "none"
 
             })
@@ -45,7 +46,6 @@ $(document).ready(function () {
 
 
     submitButton.addEventListener('click', () => {
-
         SendMail();
 
     })
