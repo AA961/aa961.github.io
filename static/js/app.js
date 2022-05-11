@@ -27,9 +27,9 @@ $(document).ready(function () {
         if (params.from_name && params.email_id && params.message) {
             emailjs.send("service_krz82gx", "template_ys3k37n", params).then(function (res) {
                 submitSuccess.classList.remove("active")
-                params.from_name.style.color = "#C3073F"
                 submitSuccess.innerHTML = params.from_name + " " + "Your Responce has been recorded , You will be responded soon"
                 contactForm.style.display = "none"
+                submitButton.style.display = "none"
 
             })
         } else {
