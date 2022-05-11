@@ -11,9 +11,17 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("rzuQ_E3hmCG_Jrpjm");
+        })();
+    </script>
+
 </head>
 
-<body >
+<body>
     <div class="site-main-content">
         <button class="hamburger">
             <img src="static/img/hamburger.svg" alt="">
@@ -50,7 +58,7 @@
             </button>
         </div>
         <header>
-            <div class="container" >
+            <div class="container">
                 <nav class="flex center between" id="main-nav">
                     <div class=" flex center">
                         <div class="logo">
@@ -123,7 +131,7 @@
                 <!-- ------------------Adding Card----------------- -->
                 <div class="cards-box">
                     <div class="card">
-                        <img src="static/skillsicons/html.png" alt="Web">
+                        <img src="static/skillsicons/html.png"  alt="Web">
                         <h2>Front End</h2>
                         <p>I'm UX/UI Front End Developer with Html CSS and Javascript.
                             I design and build user Interface. Fully costume and responsive website
@@ -134,13 +142,15 @@
                     <div class="card">
                         <img src="static/skillsicons/python.png" alt="Web">
                         <h2>Python</h2>
-                        <p>Python is first programming language which I learn. I can make tools and softwares in Python. I can also build GUI apps and softwares using tkinter and kivy.</p>
+                        <p>Python is first programming language which I learn. I can make tools and softwares in Python.
+                            I can also build GUI apps and softwares using tkinter and kivy.</p>
                     </div>
 
                     <div class="card">
                         <img src="static/skillsicons/django.png" alt="Web">
                         <h2>Django</h2>
-                        <p>I learned many Python libraries. Django is my favourite. I can build webapps backend using django. I also have experience making dynamic websites in Django</p>
+                        <p>I learned many Python libraries. Django is my favourite. I can build webapps backend using
+                            django. I also have experience making dynamic websites in Django</p>
                     </div>
 
                     <div class="card">
@@ -153,57 +163,50 @@
                     <div class="card">
                         <img src="static/skillsicons/hiphop.png" alt="Web">
                         <h2>Free Fire</h2>
-                        <p>Free Fire is my favourite mobile E-Sport game. I playing Free Fire since 3 years. I am Free Fire E-Sport Player.</p>
+                        <p>Free Fire is my favourite mobile E-Sport game. I playing Free Fire since 3 years. I am Free
+                            Fire E-Sport Player.</p>
                     </div>
 
                     <div class="card">
                         <img src="static/skillsicons/gamer1.png" alt="Web">
                         <h2>Cyber Security</h2>
-                        <p>I have intrest in Pentesting. I solved machines on hackthebox and hackthis site. I have intrest in Web explotation , Binary explotaion and Reverse Engeenring. </p>
+                        <p>I have intrest in Pentesting. I solved machines on hackthebox and hackthis site. I have
+                            intrest in Web explotation , Binary explotaion and Reverse Engeenring. </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- -----------------starting work---------------- -->
-        <section class="projects" id="poetry">
+        <!-- ----------------starting work----------------- -->
+        <section class="my-projects">
             <div class="container">
-                <h1 class="heading"><span>Poetry</span></h1>
-                <div class="project-images ">
-                    <div class="project-img">
-
-                        <img src="static/poetry/1.png" alt="project-images">
+                <h1 class="heading">My <span>Projects</span></h1>
+                <div class="myproject-wrapper">
+                    <div class="my-project">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="https://aa961.github.io/PasswordGenerator">Crypto Javascript</a>
+                        </div>
+                        <img src="static/projects/hash.jpg" loading="lazy" alt="">
                     </div>
-
-                    <div class="project-img">
-
-                        <img src="static/poetry/6.jpg" alt="project-images">
+                    <div class="my-project">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="https://aa961.github.io/infamousEs">Web Development</a>
+                        </div>
+                        <img src="static/projects/infamous.jpg" loading="lazy" alt="">
                     </div>
-
-                    <div class="project-img">
-
-                        <img src="static/poetry/2.png" alt="project-images">
+                    <div class="my-project">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="https://github.com/AA961/FFPointsCounter">Python GUI</a>
+                        </div>
+                        <img src="static/projects/freefire.jpg" loading="lazy" alt="">
                     </div>
-
-                    <div class="project-img">
-
-                        <img src="static/poetry/3.png" alt="project-images">
-                    </div>
-
-                    <div class="project-img">
-
-                        <img src="static/poetry/4.jpg" alt="project-images">
-                    </div>
-
-                    <div class="project-img">
-
-                        <img src="static/poetry/5.jpg" alt="project-images">
-                    </div>
-
-
                 </div>
             </div>
         </section>
+
         <!-- -----------------------------Starting Blog------------------------ -->
         <section class="blog" id="Lineup">
             <div class="container">
@@ -305,7 +308,10 @@
             <div class="slider" loading="lazy">
                 <div class="slide">
                     <div class="if">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/80BqXuCzbJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/80BqXuCzbJI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="slide">
@@ -318,17 +324,60 @@
                 </div>
                 <div class="slide">
                     <div class="if">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nb8bCv5sKP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nb8bCv5sKP4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
             <div class="slider-dots"></div>
         </div>
     </section>
+    <!-- -----------------starting work---------------- -->
+    <section class="projects" id="poetry">
+        <div class="container">
+            <h1 class="heading">My<span>Poetry</span></h1>
+            <div class="project-images ">
+                <div class="project-img">
+
+                    <img src="static/poetry/1.png"  loading="lazy" alt="project-images">
+                </div>
+
+                <div class="project-img">
+
+                    <img src="static/poetry/6.jpg" loading="lazy" alt="project-images">
+                </div>
+
+                <div class="project-img">
+
+                    <img src="static/poetry/2.png" loading="lazy" alt="project-images">
+                </div>
+
+                <div class="project-img">
+
+                    <img src="static/poetry/3.png" loading="lazy" alt="project-images">
+                </div>
+
+                <div class="project-img">
+
+                    <img src="static/poetry/4.jpg"  loading="lazy"alt="project-images">
+                </div>
+
+                <div class="project-img">
+
+                    <img src="static/poetry/5.jpg" loading="lazy" alt="project-images">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
     <!-- -----------------------------Starting Contant--------------------- -->
     <section class="contact" id="contact-form">
         <div class="container">
-            <h1 class="heading"><span>Contact</span> Us</h1>
+            <h1 class="heading"><span>Contact</span>Me</h1>
             <div class="about-icons">
                 <div class="about-icon">
                     <img src="static/abouticons/mobile.png" alt="mobile">
@@ -348,19 +397,19 @@
                     <h5>AAQureshi.com.</h5>
                 </div>
             </div>
-            <form action="" method="post">
-                <div class="inputs">
-                    <input type="text" name="name" placeholder="Name" id="name">
-                    <input type="email" name="email" placeholder="Email" id="email">
-                </div>
-                <div class="inputs-2">
-                    <input type="text" placeholder="Subject" name="subject" id="subject">
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..."></textarea>
-                </div>
-                <div class="contact-btn ">
-                    <button class="btn btn-primary ">Submit</button>
-                </div>
-            </form>
+
+            <div class="inputs">
+                <input type="text" name="name" required placeholder="Name" id="fullName">
+                <input type="email" name="email" placeholder="Email" id="email_id">
+            </div>
+            <div class="inputs-2">
+                <input type="text" placeholder="Subject" required name="subject" id="subject">
+                <textarea name="message" id="message" cols="30" required rows="10" placeholder="Message..."></textarea>
+            </div>
+            <div class="contact-btn ">
+                <button class="btn btn-primary" id="Submit-Button">Submit</button>
+            </div>
+
         </div>
     </section>
     <footer id="links">
