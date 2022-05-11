@@ -12,7 +12,8 @@ $(document).ready(function () {
     let close = document.querySelector('.cross');
     let navlist = document.querySelector('.down');
     let submitButton = document.querySelector("#Submit-Button");
-    let submitAlert = document.querySelector(".submit-alert")
+    let submitAlert = document.querySelector(".submit-alert");
+    let contactForm = document.getElementById("contacts-form")
 
 
     function SendMail() {
@@ -27,6 +28,7 @@ $(document).ready(function () {
             submitButton.innerHTML = "Submitted"
             submitAlert.classList.remove("active")
             submitAlert.innerHTML = params.from_name + " " + "Your Respose Has Been Recorded"
+            contactForm.style.display = "none"
 
             setTimeout(() => {
                 submitAlert.classList.add("active")
