@@ -15,6 +15,12 @@ $(document).ready(function () {
     let submitAlert = document.querySelector(".submit-alert");
     let submitSuccess = document.getElementById("ABC")
     let contactForm = document.getElementById("contacts-form");
+    let loader = document.querySelector(".loader-wrapper")
+    let senderName = document.querySelector(".sender-name")
+    let message = document.querySelector(".message")
+
+
+
 
     function SendMail() {
         let params = {
@@ -25,11 +31,17 @@ $(document).ready(function () {
         }
 
         if (params.from_name && params.email_id && params.message) {
+            loader.classList.remove("hide")
+
             emailjs.send("service_krz82gx", "template_ys3k37n", params).then(function (res) {
-                submitSuccess.classList.remove("active")
-                submitSuccess.innerHTML = params.from_name + " " + "Your Responce has been recorded , You will be responded soon"
+                senderName.innerHTML = params.from_name
+                message.innerHTML = "Your Responce has been recorded , You will be responded soon"
                 contactForm.style.display = "none"
                 submitButton.style.display = "none"
+                loader.classList.add("hide")
+                submitSuccess.classList.remove("active")
+                contactForm.reset()
+
 
             })
         } else {
@@ -38,7 +50,7 @@ $(document).ready(function () {
         }
         setTimeout(() => {
             submitAlert.classList.add("active")
-        }, 4000);
+        }, 2500);
 
     }
 

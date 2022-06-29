@@ -178,6 +178,7 @@ section.skills .card img{
     top: -3.5rem;
     left: 50%;
     transform: translateX(-50%);
+    width: 100px;
 }
 section.skills .card h2{
     font-weight: 400;
@@ -520,6 +521,74 @@ footer .footer-social a img{
 
 footer .footer-social a img:hover{
     transform: scale(1.2);
+}
+
+/* ---------loader--------- */
+
+#ABC .sender-name{
+    color: red;
+}
+
+forum-wrapper{
+    position: relative;
+}
+.loader-wrapper {
+
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+    position: absolute;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: rgb(0, 0, 0) transparent transparent transparent;
+    z-index: 111;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hide{
+    display: none;
 }
 
 

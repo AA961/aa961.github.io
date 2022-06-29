@@ -167,10 +167,9 @@
                     </div>
 
                     <div class="card">
-                        <img src="static/skillsicons/gamer1.png" alt="Web">
-                        <h2>Cyber Security</h2>
-                        <p>I have intrest in Pentesting. I solved machines on hackthebox and hackthis site. I have
-                            intrest in Web explotation , Binary explotaion and Reverse Engeenring. </p>
+                        <img src="static/skillsicons/Vue.png" alt="Web">
+                        <h2>Vue JS</h2>
+                        <p>I am Front End Developer with Vue Js. I created many webapps using Vue JS</p>
                     </div>
                 </div>
             </div>
@@ -184,6 +183,13 @@
                     <div class="my-project">
                         <div class="overlay">
                             <span>Category</span>
+                            <a href="https://resultmaker.github.io/">Vue Js</a>
+                        </div>
+                        <img src="static/projects/freefire.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="my-project">
+                        <div class="overlay">
+                            <span>Category</span>
                             <a href="https://aa961.github.io/PasswordGenerator">Crypto Javascript</a>
                         </div>
                         <img src="static/projects/hash.jpg" loading="lazy" alt="">
@@ -194,13 +200,6 @@
                             <a href="https://aa961.github.io/InfamousEs">Web Development</a>
                         </div>
                         <img src="static/projects/infamous.jpg" loading="lazy" alt="">
-                    </div>
-                    <div class="my-project">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://github.com/AA961/FFPointsCounter">Python GUI</a>
-                        </div>
-                        <img src="static/projects/freefire.jpg" loading="lazy" alt="">
                     </div>
                 </div>
             </div>
@@ -376,45 +375,61 @@
     <!-- -----------------------------Starting Contant--------------------- -->
     <section class="contact" id="contact-form">
         <div class="container">
-            <form action="" id="contacts-form">
-                <h1 class="heading"><span>Contact</span>Me</h1>
-                <div class="about-icons">
-                    <div class="about-icon">
-                        <img src="static/abouticons/mobile.png" alt="mobile">
-                        <h2>Call Me</h2>
-                        <h5>+92 314 5425904</h5>
-                    </div>
-
-                    <div class="about-icon">
-                        <img src="static/abouticons/mail.png" alt="mobile">
-                        <h2>Mail Me</h2>
-                        <h5>Ammar.Ahmed961@gmail.com</h5>
-                    </div>
-
-                    <div class="about-icon">
-                        <img src="static/abouticons/office.png" alt="mobile">
-                        <h2>Website</h2>
-                        <h5>AAQureshi.com.</h5>
-                    </div>
+            <h1 class="heading"><span>Contact</span>Me</h1>
+            <div class="about-icons">
+                <div class="about-icon">
+                    <img src="static/abouticons/mobile.png" alt="mobile">
+                    <h2>Call Me</h2>
+                    <h5>+92 314 5425904</h5>
                 </div>
 
-                <div class="inputs">
-                    <input type="text" name="name" required placeholder="Name" id="fullName">
-                    <input type="email" value="" name="email" placeholder="Email" id="email_id">
+                <div class="about-icon">
+                    <img src="static/abouticons/mail.png" alt="mobile">
+                    <h2>Mail Me</h2>
+                    <h5>Ammar.Ahmed961@gmail.com</h5>
                 </div>
-                <div class="inputs-2">
-                    <input type="text" placeholder="Subject" required name="subject" id="subject">
-                    <textarea name="message" id="message" cols="30" required rows="10"
-                        placeholder="Message..."></textarea>
+
+                <div class="about-icon">
+                    <img src="static/abouticons/office.png" alt="mobile">
+                    <h2>Website</h2>
+                    <h5>AAQureshi.com.</h5>
                 </div>
-            </form>
-            <div class="contact-btn ">
-                <button class="btn btn-primary" id="Submit-Button">Submit</button>
             </div>
 
-            
-            <span class="submit-alert active"></span>
-            <h3 id="ABC" class="active"></h3>
+            <div class="forum-wrapper">
+
+                <div class="loader-wrapper hide">
+                    <div class="lds-ring">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <form action="" id="contacts-form">
+
+                    <div class="inputs">
+                        <input type="text" name="name" required placeholder="Name" id="fullName">
+                        <input type="email" value="" name="email" placeholder="Email" id="email_id">
+                    </div>
+                    <div class="inputs-2">
+                        <input type="text" placeholder="Subject" required name="subject" id="subject">
+                        <textarea name="message" id="message" cols="30" required rows="10"
+                            placeholder="Message..."></textarea>
+                    </div>
+                </form>
+                <div class="contact-btn ">
+                    <button class="btn btn-primary" id="Submit-Button">Submit</button>
+                </div>
+
+
+                <span class="submit-alert active"></span>
+                <div id="ABC" class="active">
+                    <h2 class="sender-name"></h2>
+                    <h3 class="message"></h3>
+                </div>
+
+            </div>
         </div>
     </section>
     <footer id="links">
