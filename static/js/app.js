@@ -31,13 +31,16 @@ $(document).ready(function () {
         }
 
         if (params.from_name && params.email_id && params.message) {
+            contactForm.style.opacity = "0"
+            submitButton.style.opacity = "0"
+
             loader.classList.remove("hide")
 
             emailjs.send("service_krz82gx", "template_ys3k37n", params).then(function (res) {
-                senderName.innerHTML = params.from_name
-                message.innerHTML = "Your Responce has been recorded , You will be responded soon"
                 contactForm.style.display = "none"
                 submitButton.style.display = "none"
+                senderName.innerHTML = params.from_name
+                message.innerHTML = "Your Responce has been recorded , You will be responded soon"
                 loader.classList.add("hide")
                 submitSuccess.classList.remove("active")
                 contactForm.reset()
@@ -50,7 +53,7 @@ $(document).ready(function () {
         }
         setTimeout(() => {
             submitAlert.classList.add("active")
-        }, 2500);
+        }, 1700);
 
     }
 
