@@ -8,6 +8,7 @@
     <meta name="Ammar Ahmed" content="This is the official website of Ammar Ahmed Qureshi">
     <title>Ammar Ahmed Qureshi - Portfolio </title>
     <link rel="icon" type="image/x-icon" href="static/img/fav.png">
+    <link rel="stylesheet" href="css/project.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -70,7 +71,6 @@
                         <a href="#aboutme">About</a>
                         <a href="#skills1">Skills</a>
                         <a href="#poetry">Poetry</a>
-                        <a href="#Highlights">Highlights</a>
                     </div>
                     <div class="nav-button">
                         <a href="#contact-form">
@@ -84,11 +84,13 @@
                     </div>
                     <div class="right flex1">
                         <h3>Ammar Ahmed Qureshi</h3>
-                        <h1>I am <span>E-Sport Player</span></h1>
-                        <p>I am a Pogrammer, Full stack Web Developer, Poet , Gamer and E-sport Player</p>
+                        <h1>I am <span>Web Developer</span></h1>
+                        <p>
+                            Skilled <span>Vue Js</span> and <span>Nuxt 3</span> Developer.
+                        </p>
                         <div>
-                            <a href="#Lineup">
-                                <button class="btn btn-secondry">LINE UP</button>
+                            <a href="#">
+                                <button class="btn btn-secondry">View CV</button>
                             </a>
                         </div>
                     </div>
@@ -104,8 +106,9 @@
                 <div class="flex1 aboutme">
                     <h1>About <span>Me</span></h1>
                     <h3>Hi I am <br> <span>Ammar Ahmed Qureshi</span></h3>
-                    <p>I passed my Matriculation examination from Pakistan Secondry School Gujar Khan
-                        and Intermediate from Gentery Collage. Now I'm student of BSCS in Aspire Collage Gujar Khan.
+                    <p> Hi there! I'm a passionate developer specializing in crafting stunning and high-performance
+                        web
+                        applications using the power of Nuxt.js 3 and Vue.js 3.
                     </p>
                     <div class="social">
                         <a href="https://facebook.com/Dar.Ahmed0" target="_blank">
@@ -127,331 +130,259 @@
         <section class="skills" id="skills1">
             <div class="container">
                 <h1 class="heading">My <span>Skills</span></h1>
-                <!-- ------------------Adding Card----------------- -->
                 <div class="cards-box">
-                    <div class="card">
-                        <img src="static/skillsicons/html.png" alt="Web">
-                        <h2>Front End</h2>
-                        <p>I'm UX/UI Front End Developer with Html CSS and Javascript.
-                            I design and build user Interface. Fully costume and responsive website
-                            designs.
-                        </p>
-                    </div>
-
-                    <div class="card">
-                        <img src="static/skillsicons/python.png" alt="Web">
-                        <h2>Python</h2>
-                        <p>Python is first programming language which I learn. I can make tools and softwares in Python.
-                            I can also build GUI apps and softwares using tkinter and kivy.</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="static/skillsicons/django.png" alt="Web">
-                        <h2>Django</h2>
-                        <p>I learned many Python libraries. Django is my favourite. I can build webapps backend using
-                            django. I also have experience making dynamic websites in Django</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="static/skillsicons/poet.png" alt="Web">
-                        <h2>Poetry</h2>
-                        <p>Other than that, I love to read books and poetry.I have intrest in Philosphy.
-                            I'm Urdu Poet. I wrote many Ghazal and Nazam.</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="static/skillsicons/hiphop.png" alt="Web">
-                        <h2>Free Fire</h2>
-                        <p>Free Fire is my favourite mobile E-Sport game. I playing Free Fire since 3 years. I am Free
-                            Fire E-Sport Player.</p>
-                    </div>
 
                     <div class="card">
                         <img src="static/skillsicons/Vue.png" alt="Web">
                         <h2>Vue JS</h2>
-                        <p>I am Front End Developer with Vue Js. I created many webapps using Vue JS</p>
+                        <p>Vue.js has been my entry point into the world of <span>dynamic</span> and
+                            <span>interactive</span> web development.
+                            With <span>Vue.js</span>, I have the tools to bring your ideas to life, crafting modern and
+                            responsive
+                            <span> web applications</span>.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="static/skillsicons/django.png" alt="Web">
+                        <h2>DRF</h2>
+                        <p>Django Rest Framework has been my gateway into building powerful and scalable <span> web
+                                APIs</span>. With
+                            its intuitive design and <span>robust features</span>, I can craft <span>custom API</span>
+                            solutions that cater to
+                            your <span>specific requirements</span>.</p>
+                    </div>
+                    <div class="card">
+                        <img src="static/skillsicons/nuxt.png" alt="Web">
+                        <h2>Nuxt 3</h2>
+                        <p> Empowering me to build fast,<span> SEO-friendly</span> web applications with ease. Unleash
+                            the power of
+                            Nuxt 3 for immersive user experiences and <span>exceptional performance</span> in today's
+                            competitive
+                            digital landscape.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ----------------starting work----------------- -->
+        <!-- ----------------Projects----------------- -->
         <section class="my-projects">
             <div class="container">
                 <h1 class="heading">My <span>Projects</span></h1>
-                <div class="myproject-wrapper">
-                    <div class="my-project">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://resultmaker.github.io/">Vue Js</a>
-                        </div>
-                        <img src="static/projects/freefire.jpg" loading="lazy" alt="">
+
+                <div class="project">
+                    <h2 class="project-title">Online Result Maker</h2>
+                    <img class="project-image" loading="lazy" src="./static/projects/result-maker.PNG" alt="ResultMaker Project">
+                    <div class="project-description">
+                        <p>
+                            ResultMaker is an innovative web tool designed to generate dynamic and interactive result
+                            reports. It allows users to input data and automatically generates visualized reports with
+                            charts and graphs. Explore the ResultMaker project <a class="project-link"
+                                href="https://resultmaker.github.io/" target="_blank">here</a>.
+                        </p>
                     </div>
-                    <div class="my-project">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://aa961.github.io/PasswordGenerator">Crypto Javascript</a>
-                        </div>
-                        <img src="static/projects/hash.jpg" loading="lazy" alt="">
+                </div>
+
+                <div class="project">
+                    <h2 class="project-title">The Trust Line</h2>
+                    <img class="project-image" loading="lazy" src="./static/projects/trust-line.PNG" alt="The Trust Line Project">
+                    <div class="project-description">
+                        <p>
+                            The Trust Line is a comprehensive website offering a range of trust services to individuals
+                            and businesses. It provides secure document storage, financial planning tools, and
+                            personalized trust management solutions. Visit The Trust Line project <a
+                                class="project-link" href="https://thetrustline.netlify.app/#/home"
+                                target="_blank">here</a>.
+                        </p>
                     </div>
-                    <div class="my-project">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://aa961.github.io/InfamousEs">Web Development</a>
-                        </div>
-                        <img src="static/projects/infamous.jpg" loading="lazy" alt="">
+                </div>
+
+                <div class="project">
+                    <h2 class="project-title">EducatiaPK</h2>
+                    <img class="project-image" loading="lazy" src="./static/projects/educatia.PNG" alt="EducatiaPK">
+                    <div class="project-description">
+                        <p>
+                            The EducatiaPK project is a website that provides comprehensive information about
+                            universities worldwide. It offers details about various universities, including their
+                            locations, programs, admission requirements, and more. Whether you're a student seeking
+                            higher education opportunities or a researcher interested in academic institutions, the
+                            EducatiaPK website serves as a valuable resource. Explore the EducatiaPK project
+                            <a class="project-link" href="https://www.educatiapk.com/" target="_blank">here</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h2 class="project-title">LaTeX Tools</h2>
+                    <img class="project-image" loading="lazy" src="./static/projects/latex.PNG" alt="LaTeX Tools Project">
+                    <div class="project-description">
+                        <p>
+                            The LaTeX Tools project is a web-based platform that offers a range of tools and resources
+                            to simplify and enhance the usage of LaTeX for typesetting documents. LaTeX is a widely used
+                            document preparation system for scientific and technical documents. The LaTeX Tools website
+                            provides features such as real-time collaboration, templates, syntax highlighting, and a
+                            rich set of symbols and equations to assist users in creating professional-looking
+                            documents. Explore the LaTeX Tools project <a class="project-link"
+                                href="https://latex-tools.netlify.app/" target="_blank">here</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h2 class="project-title">Eid Cards</h2>
+                    <img class="project-image" loading="lazy" src="./static/projects/eid-cards.PNG" alt="Eid Cards Project">
+                    <div class="project-description">
+                        <p>
+                            The Eid Cards project is a website that provides a collection of beautifully designed Eid
+                            greeting cards for the festive occasion of Eid. It offers a range of customizable and
+                            printable cards featuring various themes and designs. Users can personalize the cards with
+                            their own messages and send them to their loved ones to celebrate and share the joy of Eid.
+                            Experience the Eid Cards project <a class="project-link"
+                                href="https://eidcards.netlify.app/" target="_blank">here</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h2 class="project-title">Online Quran Majeed</h2>
+                    <img class="project-image" loading="lazy" src="./static/projects/quran-eng.PNG" alt="Quran Majeed Project">
+                    <div class="project-description">
+                        <p>
+                            The Quran Majeed project is a web application that provides an interactive and user-friendly
+                            interface for reading and exploring the Holy Quran. It offers features such as
+                            verse-by-verse translation, recitation by renowned reciters, and advanced search
+                            functionality. Users can access the Quran Majeed project to study and contemplate the
+                            teachings of the Quran, along with the ability to customize the reading experience according
+                            to their preferences. Explore the Quran Majeed project <a class="project-link"
+                                href="https://quran-majeed.netlify.app/" target="_blank">here</a>.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- -----------------------------Starting Blog------------------------ -->
-        <section class="blog" id="Lineup">
+        <!-- ---------------------Poetry-------------------- -->
+        <section class="projects" id="poetry">
             <div class="container">
-                <h1 class="heading"><span>Free Fire</span> Line Up</h1>
-                <div class="card-wrapper">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
-                        <img src="static/player-logo/snoopy" class="proImg">
-                        <h2 class="name">Haroon Malik</h2>
-                        <div class="details">
-                            <h3 class="detail">IGN: <span>if.Snoopy</span> </h3>
-                            <h3 class="detail">ROLE: <span>IGL</span> </h3>
-                            <h3 class="detail">UID: <span>2083104011</span></h3>
-                        </div>
-                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y="
-                            target="_blank">
-                            <button class="btn btn-secondry contact-btn2">Contact </button>
-                        </a>
+                <h1 class="heading">My<span> Poetry</span></h1>
+                <div class="project-images ">
+
+                    <div class="project-img">
+
+                        <img src="static/poetry/1.png" loading="lazy" alt="project-images">
+                    </div>
+
+                    <div class="project-img">
+
+                        <img src="static/poetry/6.jpg" loading="lazy" alt="project-images">
+                    </div>
+
+                    <div class="project-img">
+
+                        <img src="static/poetry/2.png" loading="lazy" alt="project-images">
+                    </div>
+
+                    <div class="project-img">
+
+                        <img src="static/poetry/3.png" loading="lazy" alt="project-images">
+                    </div>
+
+                    <div class="project-img">
+
+                        <img src="static/poetry/4.jpg" loading="lazy" alt="project-images">
+                    </div>
+
+                    <div class="project-img">
+
+                        <img src="static/poetry/5.jpg" loading="lazy" alt="project-images">
                     </div>
 
 
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
-                        <img src="static/player-logo/aromaa.png" class="proImg">
-                        <h2 class="name">Ammar Ahmed</h2>
-                        <div class="details">
-                            <h3 class="detail">IGN: <span>if.Aromaa??</span> </h3>
-                            <h3 class="detail">ROLE: <span>Supporter</span> </h3>
-                            <h3 class="detail">UID: <span>1086532491</span></h3>
-                        </div>
-                        <a class="contact-a" href="#links">
-                            <button class="btn btn-secondry contact-btn2">Contact </button>
-                        </a>
-                    </div>
-
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
-                        <img src="static/player-logo/godless.jpg" class="proImg">
-                        <h2 class="name">Muneeb Malik</h2>
-                        <div class="details">
-                            <h3 class="detail">IGN: <span>if.Godless?</span> </h3>
-                            <h3 class="detail">ROLE: <span>Rusher</span> </h3>
-                            <h3 class="detail">UID: <span>870406234</span></h3>
-                        </div>
-                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y="
-                            target="_blank">
-                            <button class="btn btn-secondry contact-btn2">Contact </button>
-                        </a>
-                    </div>
-
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
-                        <img src="static/player-logo/lotera.jpg" class="proImg">
-                        <h2 class="name">Saud Arshad</h2>
-                        <div class="details">
-                            <h3 class="detail">IGN: <span>if.Love.Nd</span> </h3>
-                            <h3 class="detail">ROLE: <span>Supporter</span> </h3>
-                            <h3 class="detail">UID: <span>1653445936</span></h3>
-                        </div>
-                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y="
-                            target="_blank">
-                            <button class="btn btn-secondry contact-btn2">Contact </button>
-                        </a>
-                    </div>
-
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
-                        <img src="static/player-logo/moiz.png" class="proImg">
-                        <h2 class="name">Abdul Moiz</h2>
-                        <div class="details">
-                            <h3 class="detail">IGN: <span>if.Moiz</span> </h3>
-                            <h3 class="detail">ROLE: <span>Rusher</span> </h3>
-                            <h3 class="detail">UID: <span>493084684</span></h3>
-                        </div>
-                        <a class="contact-a" href="https://instagram.com/haroon_malikk01?igshid=YmMyMTA2M2Y="
-                            target="_blank">
-                            <button class="btn btn-secondry contact-btn2">Contact </button>
-                        </a>
-                    </div>
-
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
-                        <img src="static/player-logo/casper.jpeg" class="proImg">
-                        <h2 class="name">Mujtaba Rajpoot</h2>
-                        <div class="details">
-                            <h3 class="detail">IGN: <span>if.Casper</span> </h3>
-                            <h3 class="detail">ROLE: <span>Rusher</span> </h3>
-                            <h3 class="detail">UID: <span>2175006864</span></h3>
-                        </div>
-                        <a class="contact-a" href="https://www.facebook.com/mujtaba.rajput.980" target="_blank">
-                            <button class="btn btn-secondry contact-btn2">Contact </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-    </div>
-    </div>
-
-    </section>
-    <!-- --------------------slider------------------------------ -->
-    <section class="slider-section" id="Highlights">
-        <div class="container">
-            <h1 class="heading">Tournament <span>Highlights</span></h1>
-
-            <div class="slider" loading="lazy">
-                <div class="slide">
-                    <div class="if">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/80BqXuCzbJI"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="if">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/o8_OvmBbSIY"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="if">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nb8bCv5sKP4"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-dots"></div>
-        </div>
-    </section>
-    <!-- -----------------starting work---------------- -->
-    <section class="projects" id="poetry">
-        <div class="container">
-            <h1 class="heading">My<span> Poetry</span></h1>
-            <div class="project-images ">
-                <div class="project-img">
-
-                    <img src="static/poetry/1.png" loading="lazy" alt="project-images">
-                </div>
-
-                <div class="project-img">
-
-                    <img src="static/poetry/6.jpg" loading="lazy" alt="project-images">
-                </div>
-
-                <div class="project-img">
-
-                    <img src="static/poetry/2.png" loading="lazy" alt="project-images">
-                </div>
-
-                <div class="project-img">
-
-                    <img src="static/poetry/3.png" loading="lazy" alt="project-images">
-                </div>
-
-                <div class="project-img">
-
-                    <img src="static/poetry/4.jpg" loading="lazy" alt="project-images">
-                </div>
-
-                <div class="project-img">
-
-                    <img src="static/poetry/5.jpg" loading="lazy" alt="project-images">
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <!-- -----------------------------Starting Contant--------------------- -->
-    <section class="contact" id="contact-form">
-        <div class="container">
-            <h1 class="heading"><span>Contact</span> Me</h1>
-            <div class="about-icons">
-                <div class="about-icon">
-                    <img src="static/abouticons/mobile.png" alt="mobile">
-                    <h2>Call Me</h2>
-                    <h5>+92 314 5425904</h5>
-                </div>
-
-                <div class="about-icon">
-                    <img src="static/abouticons/mail.png" alt="mobile">
-                    <h2>Mail Me</h2>
-                    <h5>Ammar.Ahmed961@gmail.com</h5>
-                </div>
-
-                <div class="about-icon">
-                    <img src="static/abouticons/office.png" alt="mobile">
-                    <h2>Website</h2>
-                    <h5>AAQureshi.com.</h5>
-                </div>
-            </div>
-
-            <div class="forum-wrapper">
-
-                <div class="loader-wrapper hide">
-                    <div class="lds-ring">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-                <form action="" id="contacts-form">
-
-                    <div class="inputs">
-                        <input type="text" name="name" required placeholder="Name" id="fullName">
-                        <input type="email" value="" name="email" placeholder="Email" id="email_id">
-                    </div>
-                    <div class="inputs-2">
-                        <input type="text" placeholder="Subject" required name="subject" id="subject">
-                        <textarea name="message" id="message" cols="30" required rows="10"
-                            placeholder="Message..."></textarea>
-                    </div>
-                </form>
-                <div class="contact-btn ">
-                    <button class="btn btn-primary" id="Submit-Button">Submit</button>
-                </div>
-
-
-                <span class="submit-alert active"></span>
-                <div id="ABC" class="active">
-                    <h2 class="sender-name"></h2>
-                    <h3 class="message"></h3>
                 </div>
 
             </div>
-        </div>
-    </section>
-    <footer id="links">
-        <h1>عماراحمدقریشی</h1>
-        <div class="footer-social">
-            <a href="https://facebook.com/Dar.Ahmed0" target="_blank">
-                <img src="static/footer-social/fb.svg" alt="Facebook"></a>
-            <a href="https://vk.com/id548454513" target="_blank">
-                <img src="static/footer-social/vk.svg" alt="VK"></a>
-            <a href="https://twitter.com/AmmarAhmed961" target="_blank">
-                <img src="static/footer-social/twitter.svg" alt="Twitter"></a>
-            <a href="https://github.com/AA961" target="_blank">
-                <img src="static/footer-social/git.svg" alt="Github"></a>
-            <a href="https://www.youtube.com/channel/UCKZnPw6nQ9iag2uqB7vg-Yw" target="_blank">
-                <img src="static/footer-social/yt.svg" alt="Youtube"></a>
-            <a href="https://Instagram.com/aa961019" target="_blank">
-                <img src="static/footer-social/instaa.svg" alt="Youtube"></a>
-        </div>
-        <div class="copyright">
-            Copyright 2022 © AAQureshi.Com . All Right <br> Reserved.
-        </div>
-    </footer>
+        </section>
+
+        <!-- -----------------------------Starting Contant--------------------- -->
+        <section class="contact" id="contact-form">
+            <div class="container">
+                <h1 class="heading"><span>Contact</span> Me</h1>
+                <div class="about-icons">
+                    <div class="about-icon">
+                        <img src="static/abouticons/mobile.png" alt="mobile">
+                        <h2>Call Me</h2>
+                        <h5>+92 314 5425904</h5>
+                    </div>
+
+                    <div class="about-icon">
+                        <img src="static/abouticons/mail.png" alt="mobile">
+                        <h2>Mail Me</h2>
+                        <h5>Ammar.Ahmed961@gmail.com</h5>
+                    </div>
+
+                    <div class="about-icon">
+                        <img src="static/abouticons/office.png" alt="mobile">
+                        <h2>Website</h2>
+                        <h5>AAQureshi.com.</h5>
+                    </div>
+                </div>
+
+                <div class="forum-wrapper">
+
+                    <div class="loader-wrapper hide">
+                        <div class="lds-ring">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <form action="" id="contacts-form">
+
+                        <div class="inputs">
+                            <input type="text" name="name" required placeholder="Name" id="fullName">
+                            <input type="email" value="" name="email" placeholder="Email" id="email_id">
+                        </div>
+                        <div class="inputs-2">
+                            <input type="text" placeholder="Subject" required name="subject" id="subject">
+                            <textarea name="message" id="message" cols="30" required rows="10"
+                                placeholder="Message..."></textarea>
+                        </div>
+                    </form>
+                    <div class="contact-btn ">
+                        <button class="btn btn-primary" id="Submit-Button">Submit</button>
+                    </div>
+
+
+                    <span class="submit-alert active"></span>
+                    <div id="ABC" class="active">
+                        <h2 class="sender-name"></h2>
+                        <h3 class="message"></h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer id="links">
+            <h1>عماراحمدقریشی</h1>
+            <div class="footer-social">
+                <a href="https://facebook.com/Dar.Ahmed0" target="_blank">
+                    <img src="static/footer-social/fb.svg" alt="Facebook"></a>
+                <a href="https://vk.com/id548454513" target="_blank">
+                    <img src="static/footer-social/vk.svg" alt="VK"></a>
+                <a href="https://twitter.com/AmmarAhmed961" target="_blank">
+                    <img src="static/footer-social/twitter.svg" alt="Twitter"></a>
+                <a href="https://github.com/AA961" target="_blank">
+                    <img src="static/footer-social/git.svg" alt="Github"></a>
+                <a href="https://www.youtube.com/channel/UCKZnPw6nQ9iag2uqB7vg-Yw" target="_blank">
+                    <img src="static/footer-social/yt.svg" alt="Youtube"></a>
+                <a href="https://Instagram.com/aa961019" target="_blank">
+                    <img src="static/footer-social/instaa.svg" alt="Youtube"></a>
+            </div>
+            <div class="copyright">
+                Copyright 2022 © AAQureshi.Com . All Right <br> Reserved.
+            </div>
+        </footer>
     </div>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

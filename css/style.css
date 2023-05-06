@@ -162,9 +162,10 @@ section.skills {
     background-color: var(--light);
 }
 
-.heading span {
+.heading span, p span {
     color: var(--primary);
 }
+
 
 section.skills .cards-box {
     display: grid;
@@ -297,7 +298,7 @@ section.projects {
 
 /* ---------project-SEction------------- */
 section.my-projects {
-    background-color: var(--pure);
+    background-color: var(--light);
 }
 
 section.my-projects .myproject-wrapper {
@@ -577,23 +578,24 @@ forum-wrapper {
 }
 
 .loader-wrapper {
-
-    height: 80vh;
+    height: 40vh;
     background: var(--light);
-    width: 90vw;
-    position: absolute;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .lds-ring {
-    display: inline-block;
+    /* display: inline-block;
     position: relative;
     width: 80px;
     height: 80px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .lds-ring div {

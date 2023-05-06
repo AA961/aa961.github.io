@@ -31,8 +31,8 @@ $(document).ready(function () {
         }
 
         if (params.from_name && params.email_id && params.message) {
-            contactForm.style.opacity = "0"
-            submitButton.style.opacity = "0"
+            contactForm.style.display = "none"
+            submitButton.style.display = "none"
 
             loader.classList.remove("hide")
 
