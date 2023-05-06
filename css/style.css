@@ -587,7 +587,7 @@ forum-wrapper {
 }
 
 
-.lds-ring {
+/* .lds-ring { */
     /* display: inline-block;
     position: relative;
     width: 80px;
@@ -596,7 +596,7 @@ forum-wrapper {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-}
+/* } */
 
 .lds-ring div {
     box-sizing: border-box;
