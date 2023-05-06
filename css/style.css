@@ -574,7 +574,7 @@ footer .footer-social a img:hover {
 
 forum-wrapper {
     position: relative;
-    width: 100vw;
+    width: 100%;
 }
 
 .loader-wrapper {
